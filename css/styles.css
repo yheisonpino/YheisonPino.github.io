@@ -3420,7 +3420,7 @@ textarea.form-control-lg {
 }
 
 .btn-outline-light {
-  color: #f8f9fa;
+  color: #0d0d0e;
   border-color: #f8f9fa;
 }
 .btn-outline-light:hover {
@@ -7808,12 +7808,13 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color:  var(--bs-gray-200); /* cambio de color fondo*/
 }
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #0dcaf0 ; /* cambio de panel superior  */ 
+  
 }
 
 .bg-success {
@@ -11443,6 +11444,9 @@ html {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+  background-size: cover;
+  border-radius: 80%;
+  margin: 0 auto;
 }
 
 @media (min-width: 992px) {
@@ -11472,7 +11476,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: #0dcaf0;
+  background-color: #0dcaf0; /*cambio de color al portafolio */
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
